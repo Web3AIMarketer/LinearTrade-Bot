@@ -1,0 +1,10 @@
+name: lineartrade-bot
+dependencies:
+  - python=3.10
+  - flask
+  - requests
+  - pip
+  - pip:
+      - python-dotenv
+      - pyTelegramBotAPI
+      - gunicorn
